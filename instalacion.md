@@ -16,6 +16,11 @@ npm install vee-validate
 npm install firebase vuefire
 ```
 
+## Instalación Icons de Material Design
+
+```sh
+npm install @mdi/font
+```
 
 # Nombre de variables de Entorno en el archivo .env.local
 
