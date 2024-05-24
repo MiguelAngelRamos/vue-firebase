@@ -11,8 +11,14 @@ export const loginSchema = {
     }
     return true;
   },
-  password(value) {    
+  password(value) {  
     if(value) return true;
     return 'El password es obligatorio';
+
+    // if(!value) return 'La password es un campo obligatorio';
+    // if(value.length >= 6 ) return true;
+    // return 'La password debe ser mayor a 6 caracteres';
+    // validar la contraseña que tenga un longitud superior 
+   
   }
 }
